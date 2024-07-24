@@ -21,22 +21,22 @@ export default function LoginPage({ navigation }) {
     })
       .then(function (response) {
         storeData(response)
-        console.log("LogIn Seccess");
+        console.log("Log In Successfully!");
         // Dialog.show({
         //   type: ALERT_TYPE.SUCCESS,
         //   title: 'Success',
-        //   textBody: 'Login Seccess!',
+        //   textBody: 'Login Success!',
         //   button: 'close',
         //   // autoClose:1000000,
         // })
       })
       .catch(function (error) {
         console.log(error);
-        // console.log("LogIn Un Seccess");
+        // console.log("LogIn Un Success");
         Dialog.show({
           type: ALERT_TYPE.DANGER,
           title: 'Warning',
-          textBody: 'Login Un Seccess! Try Again...',
+          textBody: 'Oops..!Login Unsuccessfully! Try Again...!',
           button: 'close',
           autoClose:1000000,
         })
