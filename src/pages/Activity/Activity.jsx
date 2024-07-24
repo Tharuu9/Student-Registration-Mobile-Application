@@ -27,7 +27,7 @@ export default function Activity({ navigation }) {
                 Dialog.show({
                     type: ALERT_TYPE.SUCCESS,
                     title: 'Success',
-                    textBody: 'Student Save Seccess!',
+                    textBody: 'Student Saved Successfully!',
                     button: 'Ok',
                     autoClose:1000000,
                 })
@@ -40,8 +40,8 @@ export default function Activity({ navigation }) {
                 Dialog.show({
                     type: ALERT_TYPE.DANGER,
                     title: 'Warning',
-                    textBody: 'Student Save Un Seccess!',
-                    button: 'Try Again...',
+                    textBody: 'Oops..!Student Saved Unsuccessfully!',
+                    button: 'Try Again...!',
                     autoClose:1000000,
                 })
             });
