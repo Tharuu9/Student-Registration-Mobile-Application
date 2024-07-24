@@ -29,14 +29,14 @@ export default function DialogBox({ visible = false, hideDialog, object, changeD
         })
             .then((response) => {
                 // console.log("Save Seccuss !");
-                Alert.alert('Update Seccuss !')
+                Alert.alert('Updated Successfully!')
                 changeData()
                 // console.log(response);
             })
             .catch((error) => {
                 console.log(response);
                 // console.log("Un Save Seccuss !");
-                Alert.alert('Update Un Seccuss !')
+                Alert.alert('Oops..!Updated Unsuccessfully !')
             });
     }
 
@@ -94,7 +94,7 @@ export default function DialogBox({ visible = false, hideDialog, object, changeD
                         />
 
                         <MyButton
-                            text={"Cansel"}
+                            text={"Cancel"}
                             buttonColor={'#c0392b'}
                             textColor={'white'}
                             rippleColor={"#EABDB8"}
