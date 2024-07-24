@@ -11,8 +11,8 @@ export default function DrawerNav({ navigation }) {
   const logout = async () => {
     try {
       await AsyncStorage.removeItem('my-key');
-      console.log('Token removed successfully.');
-      console.log('Log Out Successfully.');
+      console.log('Token removed successfully!');
+      console.log('Log Out Successfully..!');
       navigation.navigate('Login');
     } catch (error) {
       console.error('Error removing token:', error);
