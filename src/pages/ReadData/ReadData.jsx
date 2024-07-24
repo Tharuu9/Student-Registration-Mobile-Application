@@ -64,7 +64,7 @@ export default function ReadData() {
         Dialog.show({
             type: ALERT_TYPE.SUCCESS,
             title: 'Success',
-            textBody: 'Student Deleted Success!',
+            textBody: 'Student Deleted Successfully!',
             button: 'Ok',
             autoClose:1000000,
         })
@@ -76,8 +76,8 @@ export default function ReadData() {
             Dialog.show({
             type: ALERT_TYPE.DANGER,
             title: 'Warning',
-            textBody: 'Student Deleted Un Seccess!',
-            button: 'Try Again...',
+            textBody: 'Oops...!Student Deleted unsuccessfully!',
+            button: 'Try Again...!',
             autoClose:1000000,
         })
 
