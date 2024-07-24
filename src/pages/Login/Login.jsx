@@ -101,7 +101,7 @@ export default function LoginPage({ navigation }) {
 
           <MyButton
             style={styles.myBtn}
-            text={"Regiseter"}
+            text={"Register"}
             textColor={"black"}
             buttonColor={"#16a085"}
             rippleColor={"white"}
