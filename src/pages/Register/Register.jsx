@@ -27,7 +27,7 @@ export default function Register({ navigation }) {
                 Dialog.show({
                     type: ALERT_TYPE.SUCCESS,
                     title: 'Success',
-                    textBody: 'User Register Seccess!',
+                    textBody: 'User Registration Successfully!',
                     button: 'Ok',
                     autoClose:1000000,
                 })
@@ -40,7 +40,7 @@ export default function Register({ navigation }) {
                 Dialog.show({
                     type: ALERT_TYPE.DANGER,
                     title: 'Warning',
-                    textBody: 'User Register Un Seccess!',
+                    textBody: 'Oops..!User Registration Unsuccessfully!',
                     button: 'Try Again...',
                     autoClose:1000000,
                 })
@@ -61,7 +61,7 @@ export default function Register({ navigation }) {
         <ScrollView>
             <View style={styles.mainView}>
                 <View>
-                    <Text style={styles.text} variant="headlineSmall">User Registation!</Text>
+                    <Text style={styles.text} variant="headlineSmall">User Registration!</Text>
                 </View>
                 <View style={styles.view}>
                     <Image style={styles.img} source={register_icon} />
